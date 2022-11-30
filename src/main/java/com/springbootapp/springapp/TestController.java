@@ -12,4 +12,9 @@ public class TestController {
     public String myController(){
         return "Welcome to bunny and Family";
     }
+
+    @RequestMapping("/config")
+    public String myControllerConfig(){
+        return "Welcome to config page";
+    }
 }
